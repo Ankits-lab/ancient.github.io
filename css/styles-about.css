@@ -1,0 +1,8 @@
+.card-about{
+    background: #000;
+    height: 300px;
+    width: 300px;  
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
