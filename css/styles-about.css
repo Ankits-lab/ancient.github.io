@@ -1,27 +1,46 @@
-.card-about{
-    box-sizing: border-box;
-    background: #143D59;
-    height: 250px;
-    width: 250px;  
-    position: absolute;
-    top: 25%;
-    left: 10%;
+      /* Float four columns side by side */
+  .column-about {
+    padding: 0 100px;
+    float:left;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row-about {margin: 0 0;}
+  
+  /* Clear floats after the columns */
+  .row-about:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
 
-}
-.card-about:hover{
-    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
-    box-shadow: #2f00ff;
-}
-.card-about1{
-    box-sizing: border-box;
-    background: #143D59;
-    height: 250px;
-    width: 250px;  
-    position: absolute;
-    top: 25%;
-    left: 30%;
-}
-.card-about1:hover{
-    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
-    box-shadow: #2f00ff;
-}
+.column-about {
+      display: block;
+      margin-bottom: 20px;
+      width: 30%;
+    }
+  
+  /* Style the counter cards */
+  .card-about {
+    box-shadow: 0 4px 8px 0px rgb(255, 1, 1);
+    padding: 16px;
+    text-align: center;
+    background-color: #F4B41A;
+    width: 190%;
+    font-size: 150%;
+  }
+  p{
+      color: #ffffff;
+  }
+  .margin{
+      position: absolute;
+      top: 25%;
+      left: 1%;
+  }
+  .card-about:hover{
+    box-shadow: 2px 4px 8px 2px rgb(25, 1, 71);
+      height: 10%;
+      width: 40;
+  }
