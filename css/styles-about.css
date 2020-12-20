@@ -1,8 +1,27 @@
 .card-about{
-    background: #000;
-    height: 300px;
-    width: 300px;  
+    box-sizing: border-box;
+    background: #143D59;
+    height: 250px;
+    width: 250px;  
     position: absolute;
     top: 25%;
     left: 10%;
+
+}
+.card-about:hover{
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+    box-shadow: #2f00ff;
+}
+.card-about1{
+    box-sizing: border-box;
+    background: #143D59;
+    height: 250px;
+    width: 250px;  
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.card-about1:hover{
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+    box-shadow: #2f00ff;
 }

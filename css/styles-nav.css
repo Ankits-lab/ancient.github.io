@@ -9,7 +9,7 @@ list-style-type:none;
 {
 position:relative;
 background:#; 
-width:300px;
+width:270px;
 height:70px;
 margin-bottom:5px;
 border-radius: 100px;
@@ -56,6 +56,7 @@ transition: all 0.3s ease-in-out;
 }
 .var_nav:hover a
 {
+visibility: visible;
 font-weight:bold;
 -webkit-transition:all .5s ease-in-out;
 -moz-transition:all .5s ease-in-out; 
@@ -78,6 +79,7 @@ float:left;
 transition:all .5s ease-in-out;   
 float:left;  
 border-radius: 5%;
+visibility: visible;
 }
 .icon i{top:22px;position:relative;}
 a{
@@ -98,9 +100,7 @@ a:hover{
     animation-delay: 2s;
     animation-fill-mode: backwards;
     text-align:center;
-    visibility: visible;
 }
-.icon:focus + a{ visibility:visible; }
 span
 {
 margin-top:25px;
