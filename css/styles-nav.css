@@ -4,11 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-*{
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -20,6 +15,15 @@
     background: #0082e6;
     height: 80px;
     width: 100%;
+    position: fixed;
+    overflow: hidden;
+  }
+  img{
+    margin-left: -4%;
+    margin-top: 0.5%;
+    height: 70px;
+    width: 70px;
+    position: center;
   }
   label.logo{
     color: white;
