@@ -45,3 +45,11 @@
   .button-width{
       width: 100%;
   }
+
+  @media(max-height:800px){
+    .dropdown-menu{
+          height:300px;
+          overflow-y:auto;
+       }
+
+    }
