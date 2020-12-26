@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 1;
     left: 0;
-    background-color: #111;
+    background-color: rgb(36, 36, 36);
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -15,7 +15,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color: #000000;
     display: block;
     border: none;
     background: none;
