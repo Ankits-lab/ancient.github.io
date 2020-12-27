@@ -75,7 +75,7 @@ margin-left: 1%;
 
 /* On mouse-over */
 .sidenav a:hover,{
-  color: #f1f1f1;
+  color: #FFFFFF;
 }
 
 /* Main content */
@@ -100,4 +100,22 @@ margin-left: 1%;
         overflow-y:auto;
      }
 
+  }
+
+
+  /* styles welcome screen to download center*/
+  .para{
+    margin-left: 60px;
+    position: center;
+    color: #c24747;
+  }
+
+  .para p{
+    font-size:2rem;
+  }
+  .para p1{
+    font-size: 1.4rem;
+  }
+  .para p2{
+    font-size: 1.8rem;
   }

@@ -1,0 +1,9 @@
+.nav-item{
+    font-size: 1.5rem;
+}
+.nav-item:hover{
+    color: #ffffff;
+}
+.navbar-dark{
+    color:azure
+}
