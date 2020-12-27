@@ -1,62 +1,103 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+#sidebar {
+  position:absolute;
+  top:auto;
+  left:-250px;
+  width:250px;
+  height:100%;
+  background:#151719;
+  transition:all 300ms linear;
+}
+#sidebar.active {
+  left:0px;
+}
+#sidebar .toggle-btn {
+  position:absolute;
+  left:270px;
+  top:10px;
+}
+#sidebar .toggle-btn span {
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+  cursor:pointer;
+}
+#sidebar div.list div.item {
+  padding:15px 10px;
+  border-bottom:1px solid #444;
+  color:#fcfcfc;
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+/*MAIN PART OF SIDE BAR*/
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 100%;
-    width: 250px;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    background-color: rgb(36, 36, 36);
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-.border1{
+  height: 100%;
   width: 250px;
-  margin-top: 0px;
-  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  background-color: rgb(36, 36, 36);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.border1{
+width: 250px;
+margin-top: 0px;
+height: 100vh;
 }
 .dropdown-dropdown-item{
-  margin-left: 1%;
+margin-left: 1%;
 }
 
-  .sidenav a{
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    display: block;
-    border: none;
-    background: none;
-    width:100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  /* On mouse-over */
-  .sidenav a:hover,{
-    color: #f1f1f1;
-  }
-  
-  /* Main content */
-  .main {
-    margin-left: 250px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  /* Optional: Style the caret down icon */
-  .fa-caret-down {
-    float: right;
-    padding-right: 8px;
-  }
-  .button-width{
-      width: 100%;
-  }
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
 
-  @media(max-height:800px){
-    .dropdown-menu{
-          height:300px;
-          overflow-y:auto;
-       }
+/* On mouse-over */
+.sidenav a:hover,{
+  color: #f1f1f1;
+}
 
-    }
+/* Main content */
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.button-width{
+    width: 100%;
+}
+
+@media(max-height:800px){
+  .dropdown-menu{
+        height:300px;
+        overflow-y:auto;
+     }
+
+  }
