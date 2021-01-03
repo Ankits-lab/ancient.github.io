@@ -1,12 +1,24 @@
-.sidenav{
-    position: fixed;
-    margin-top: 10% ;
+@media(min-width:1000px){
+    .sidenav{
+        position: fixed;
+    }
+    #sidebar{
+        position: fixed;
+    }
+    .navbar{
+        position: fixed;
+    }
 }
-#sidebar{
-    position: fixed;
-}
-.navbar{
-    position: fixed;
+@media(max-width:1000px){
+    .sidenav{
+        position: absolute;
+    }
+    #sidebar{
+        position: absolute;
+    }
+    .navbar{
+        position: absolute;
+    }
 }
 .a1{
     color: #cc0000;
@@ -14,6 +26,7 @@
 .a1:hover{
     color:#cc0000 ;
 }
+
 .install{
 width: 90%;
 padding: 10px;
