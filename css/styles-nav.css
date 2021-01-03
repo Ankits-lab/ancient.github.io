@@ -7,3 +7,6 @@
 .navbar-dark{
     color:azure
 }
+.navbar{
+    background-image: linear-gradient(0deg , #000000, #d9af45 ) ;
+}
