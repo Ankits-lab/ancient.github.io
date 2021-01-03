@@ -1,0 +1,23 @@
+.sidenav{
+    position: fixed;
+    margin-top: 10% ;
+}
+#sidebar{
+    position: fixed;
+}
+.navbar{
+    position: fixed;
+}
+.a1{
+    color: #cc0000;
+}
+.a1:hover{
+    color:#cc0000 ;
+}
+.install{
+width: 90%;
+padding: 10px;
+border: 5px solid rgb(0, 0, 0);
+margin: 0;
+}
+
