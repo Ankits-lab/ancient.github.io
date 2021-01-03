@@ -16,7 +16,7 @@ main {
 @media(max-width:600px){
   .carousel-inner img {
       width: 100%;
-      height: 50vh;
+      height: 40vh;
   }
   }
 /*--this end of loop for adjusting images on mobile view and desktop mode--*/
