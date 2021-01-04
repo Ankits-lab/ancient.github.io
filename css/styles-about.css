@@ -3,10 +3,19 @@
   margin-top: 2%;
   margin-left: 6%;
   margin-right: 6%;
-  
 }
-.card-columns > .card >.card-img{
+.card-columns > .card > .card-img{
     height: 3%;
+}
+.row{
+    row-gap: 5px;
+}
+
+.h1{
+    color: #fffff3;
+    margin-top: 3%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .card{
