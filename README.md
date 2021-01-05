@@ -19,6 +19,7 @@ to website if everything is fine
     instruction for rom has per your phones
 5) Dowload link is common on line no 180 (warn do not change it can only by core team devs or myself :- Ankit kene)
 
+or just check whyred commit 
 
 
 NOTE:- while developing this rom many have gave their suggestion so if you have any suggestion 
