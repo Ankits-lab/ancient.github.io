@@ -1,10 +1,10 @@
 HI There welcome over 
-I know many people web development is hard or whatever is your mind set 
-But this readme file is just made to guide on how to make page of your page
+I know many  people think web development is hard or whatever is your mind set 
+But this readme file is just made to guide you on how to make page of your device page
 format is fixed you cant do any changes in it so just follow insturctions
 
 I have mentioned below which line and what changes you have to make 
-make those changes and add pull request so that file will merged and linked 
+make those changes and add pull request so that file will be merged and linked 
 to website if everything is fine
 
 1) create a duplicate file of "Nokia 6.1" which is saved under name "nokia6-1.html"
