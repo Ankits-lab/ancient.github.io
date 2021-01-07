@@ -22,5 +22,5 @@ to website if everything is fine
 or just check whyred commit 
 
 
-NOTE:- while developing this rom many have gave their suggestion so if you have any suggestion 
+NOTE:- while developing this website many have gave their suggestion so if you have any suggestion 
         you can share with me  my telegram username @ankitkene
