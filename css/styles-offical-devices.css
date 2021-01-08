@@ -1,6 +1,7 @@
 @media(min-width:1000px){
     .sidenav{
         position: fixed;
+        margin-top: 2%;
     }
     #sidebar{
         position: fixed;
@@ -12,6 +13,7 @@
 @media(max-width:1000px){
     .sidenav{
         position: absolute;
+        margin-top: 15%;
     }
     #sidebar{
         position: absolute;
@@ -20,6 +22,7 @@
         position: absolute;
     }
 }
+
 .a1{
     color: #cc0000;
 }
