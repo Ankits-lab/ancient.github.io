@@ -10,21 +10,30 @@ main {
 @media(min-width:600px){
 .carousel-inner img {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
 }
-.swipe{
+
+.swipe1{
   visibility: hidden;
-  margin-top: -10rem;
 }
+
+.swipe{
+      margin-top: -95vh;
+}
+
 }
 @media(max-width:600px){
   .carousel-inner img {
       width: 100%;
-      height: 40vh;
+      height: 45vh;
+  }
+
+  .swipe1{
+    visibility: visible;
   }
 
   .swipe{
-    visibility: visible;
+    margin-top: 0vh;
   }
 
  }
