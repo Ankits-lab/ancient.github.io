@@ -120,7 +120,7 @@ main {
   visibility: visible;
 }
 .onlyhomepage2{
- /* margin-top: -20rem; */
+  margin-top: 15%; 
 }
 
 .btn{
@@ -132,27 +132,31 @@ main {
   height:30%;
 }
 
+.btn1 > a{
+  font-size: 10%;
+}
+
 .card1{
-  width: 60%;
+  width: 70%;
   margin-top: 6%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .card2{
-  width: 60%;
+  width: 70%;
   float: left;
   margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .card3{
-  width: 60%;
+  width: 70%;
   float: left;
   margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 
