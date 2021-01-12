@@ -69,9 +69,14 @@ main {
 .btn1:hover{
   background-image: linear-gradient( 0deg , #fd0000 , #ffffff );
 }
+
+.btn{
+  width:32%
+}
+
 .btn1 > img{
-  width:2rem;
-  height:2rem;
+  width:30%;
+  height:30%;
 }
 
 .decoration-home{
@@ -86,7 +91,7 @@ main {
 
   .card1{
   width: 30%;
-  margin-top: 6%;
+  margin-top: 3%;
   margin-left: 8rem;
 }
 
@@ -112,9 +117,44 @@ main {
 
 @media(max-width:999px){
 .onlydesktop{
-  visibility: hidden;
+  visibility: visible;
 }
 .onlyhomepage2{
-  margin-top: -20rem;
+ /* margin-top: -20rem; */
 }
+
+.btn{
+  width:32%
+}
+
+.btn1 > img{
+  width:30%;
+  height:30%;
+}
+
+.card1{
+  width: 60%;
+  margin-top: 6%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.card2{
+  width: 60%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.card3{
+  width: 60%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
 }
