@@ -87,7 +87,7 @@ main {
 }
 
 /*card view alignment adjust ment */
-@media(min-width:1000px){
+@media(min-width:720px){
 
   .card1{
   width: 30%;
@@ -115,7 +115,7 @@ main {
 
 }
 
-@media(max-width:999px){
+@media(max-width:720px){
 .onlydesktop{
   visibility: visible;
 }
