@@ -18,7 +18,7 @@ main {
 }
 
 .swipe{
-      margin-top: -95vh;
+  margin-top: -95vh;
 }
 
 }
@@ -36,16 +36,85 @@ main {
     margin-top: 0vh;
   }
 
+
  }
 /*--this end of loop for adjusting images on mobile view and desktop mode--*/
 .background-color-body{
   background-image: linear-gradient(180deg , #000000, #d9af45 );
 }
 
-.onlyhomepage{
-  background-image: linear-gradient(10deg , #000000, #000000 );
+.onlyhomepage1{
+ /* background-image: linear-gradient(10deg , #ffffff, #fffafa ); */
+  background-color: #ffffff;
+  
 }
+
+.onlyhomepage2{
+  /*background-image: linear-gradient(10deg , #000000, #000000 ); */
+  background-color: black;
+}
+
+
+
 
 .color-home{
   color: #ffffff ;
+}
+
+/* below code if for homepage devs info */
+
+.btn1{
+  align-items: center;
+}
+.btn1:hover{
+  background-image: linear-gradient( 0deg , #fd0000 , #ffffff );
+}
+.btn1 > img{
+  width:2rem;
+  height:2rem;
+}
+
+.decoration-home{
+  box-shadow: 2px 8px 16px #000000;
+}
+.decoration-home:hover{
+  box-shadow: 2px 8px 16px #ff0000;
+}
+
+/*card view alignment adjust ment */
+@media(min-width:1000px){
+
+  .card1{
+  width: 30%;
+  margin-top: 6%;
+  margin-left: 8rem;
+}
+
+.card2{
+  width: 30%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.card3{
+  width: 30%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 60%;
+}
+
+.onlydesktop{
+  visibility: visible;
+}
+
+}
+
+@media(max-width:999px){
+.onlydesktop{
+  visibility: hidden;
+}
+.onlyhomepage2{
+  margin-top: -20rem;
+}
 }
