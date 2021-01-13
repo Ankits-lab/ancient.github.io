@@ -108,24 +108,33 @@ main {
   }
 
   .card1{
-  width: 30%;
-  margin-top: 3%;
-  margin-left: 8rem;
-}
-
-.card2{
-  width: 30%;
-  float: left;
-  margin-top: 3%;
-  margin-left: 35%;
-}
-
-.card3{
-  width: 30%;
-  float: left;
-  margin-top: 3%;
-  margin-left: 60%;
-}
+    width: 32%;
+    margin-top: 6%;
+    margin-left: 1%;
+  }
+  .card2{
+    width:  32%;
+    margin-top: 3%;
+    margin-left: 33%;
+  }
+  
+  .card3{
+    width:  32%;
+    margin-top: 3%;
+    margin-left: 66%;
+  }
+  
+  .card4{
+    width:  32%;
+    margin-top: 3%;
+    margin-left: 33%;
+  }
+  .card5{
+    width:  32%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
 }
 
 @media( max-width:899px ){
@@ -159,6 +168,21 @@ main {
   }
   
   .card3{
+    width: 80%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card4{
+    width: 80%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .card5{
     width: 80%;
     float: left;
     margin-top: 3%;
@@ -210,6 +234,21 @@ main {
   margin-right: 10%;
 }
 
+.card4{
+  width: 80%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.card5{
+  width: 80%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 }
 
 @media(max-width:320px){
@@ -248,6 +287,21 @@ main {
   }
   
   .card3{
+    width: 80%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card4{
+    width: 80%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .card5{
     width: 80%;
     float: left;
     margin-top: 3%;
