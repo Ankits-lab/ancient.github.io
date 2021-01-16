@@ -24,10 +24,11 @@
 }
 
 .a1{
-    color: #cc0000;
+   color: #ff0000; 
+   background-color: black;
 }
 .a1:hover{
-    color:#cc0000 ;
+    color:#0004ff ;
 }
 
 .install{

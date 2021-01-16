@@ -40,7 +40,8 @@ main {
  }
 /*--this end of loop for adjusting images on mobile view and desktop mode--*/
 .background-color-body{
-  background-image: linear-gradient(180deg , #000000, #d9af45 );
+  /*background-image: linear-gradient(180deg , #000000, #000000 ); */
+    background-color: aqua;
 }
 
 .onlyhomepage{
