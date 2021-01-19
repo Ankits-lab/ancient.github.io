@@ -1,13 +1,21 @@
+body { 
+	/*max-width: 100%; */
+	margin: 0 auto !important; 
+    float: none !important; 
+    margin-right:-10%
+}
 @media (min-width:750px){
     .copyright{
         font-size: 250%;
         color: azure;
-        text-align: center;
+        margin-left: 35%;
+        margin-right: 35%;
     }
     .copyright1{
         font-size: 250%;
         color: azure;
-        text-align: center;
+        margin-left: 32%;
+        margin-right: 32%;
     }
 }
 @media (max-width:749px){
