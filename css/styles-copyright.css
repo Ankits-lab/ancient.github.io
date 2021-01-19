@@ -2,29 +2,29 @@
     .copyright{
         font-size: 250%;
         color: azure;
-
+        text-align: center;
     }
     .copyright1{
         font-size: 250%;
         color: azure;
-
+        text-align: center;
     }
 }
 @media (max-width:749px){
     .copyright{
         font-size: 175%;
         color: azure;
-
+        text-align: center;
     }
     .copyright1{
         color: azure;
         font-size: 175%;
-
+        text-align: center;
     }
 }
 
 .para-copyright{
     font-size: 175%;
     color: azure;
-
+    text-align: center;
 }
