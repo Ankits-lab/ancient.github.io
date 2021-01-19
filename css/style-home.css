@@ -98,8 +98,6 @@ a{
 	font-size: xx-large;
 	font-family: sans-serif;
 	background-color: rgb(0, 0, 0);
-	margin-left: 10%;
-	margin-right: 10%;
 }
 .para-download > p12{
 
@@ -114,6 +112,4 @@ a{
 .devs{
 	color: azure;
 	font-size: xx-large;
-	margin-left: 10%;
-	margin-right: 5%;
 }
