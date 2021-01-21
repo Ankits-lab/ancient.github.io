@@ -3,7 +3,6 @@ body {
 }
 
 .contact-container {
-  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   max-width: 800px;
@@ -37,7 +36,6 @@ body {
   margin-bottom: 24px;
   border-radius: 4px;
   box-shadow: 0 5px 8px -2px rgba(0, 0, 0, 0.2);
-  font-family: "Roboto", sans-serif;
 }
 
 .contact-container .contact-left .form-element {

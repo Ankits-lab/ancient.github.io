@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 main {
   max-width: 900px;
   margin: auto;
   padding: 0.5rem;
-  text-align: center;
+  text-align: center; 
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
 }
 *{margin: 0; padding: 0; box-sizing: border-box;}
 /*--this end of loop for adjusting images on mobile view and desktop mode--*/
@@ -96,8 +103,11 @@ main {
 
 /*card view alignment adjust ment */
 @media(min-width:900px){
+  .copyright{
+    margin-top: 5%;
+  }
   .onlyhomepage2{
-    margin-top: 10%;
+    margin-top: 20%;
   }
   .btn{
     width: 32%;
