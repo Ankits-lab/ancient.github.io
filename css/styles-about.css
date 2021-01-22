@@ -1,49 +1,61 @@
-.card-columns{
-  width: 90%;
-  margin-top: 2%;
-  margin-left: 6%;
-  margin-right: 6%;
-}
-.card-columns > .card > .card-img{
-    height: 3%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.background-color-body-about{
+        background-color: black;
+    }
+
+.card-main{
+        width: 90%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        background-image: linear-gradient(0deg, #252525 , #252525);
+        font-family: 'Open Sans', sans-serif;
+  }
+
+.card-title{
+        margin-top: 1%;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        color:rgb(0, 204, 255);
+        background-image: linear-gradient(0deg, #4d4646 , #4d4646);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .card-title > h1 {
+        margin-top: 0.5%;
+        font-size: 150%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.card-about{
+        width: 41%;
+        margin-top: 0%;
+        margin-left: 6%;
+        text-align: center;
+        background-image: linear-gradient(0deg, #4d4646 , #4d4646);
+    }
+
+.card-about > p1{
+        margin-top: 5%;
+        font-family:sans-serif;
+        font-weight: 10%;
+        color:azure;
+    }
+
+.card-about > p2{
+        font-family: sans-serif;
+        color:azure;
+    }
+
+.card-about > img{
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 60%;
+        height: 60%;
+    }
+
 .row{
-    row-gap: 5px;
-}
 
-.h1{
-    color: #fffff3;
-    margin-top: 3%;
-    margin-left: 33%;
-    margin-right: 33%;
-}
-
-.card{
-    box-shadow: 0px 4px 8px #ffffff;
-}
-.card:hover{
-    box-shadow: 0px 4px 8px #ff0000;
-}
-
-@media(max-with:900px){
-    .card-columns{
-        width: 50%;
-        margin-top: 2%;
-        margin-left: 15%;
-        margin-right: 15%;
-        
-      }
-      .card-columns > .card >.card-img{
-          height: 3%;
-      }
-      .card{
-          box-shadow: 0px 4px 8px #ffffff;
-      }
-      .card:hover{
-          box-shadow: 0px 4px 8px #ff0000;
-      }
-    .margin{
-        margin-left: 15%;
-        margin-right: 15%;
-    } 
-}
+        margin-top: 3%;    
+    }
