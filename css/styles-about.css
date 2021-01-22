@@ -10,6 +10,7 @@
         margin-left: 5%;
         background-image: linear-gradient(0deg, #252525 , #252525);
         font-family: 'Open Sans', sans-serif;
+        border-radius: 10px;
   }
 
 .card-title{
@@ -56,6 +57,16 @@
     }
 
 .row{
-
         margin-top: 3%;    
+    }
+
+.card-main1{
+        background-image: linear-gradient(0deg, #000000 , #000000);
+    }
+.card-support{
+        margin-left: 5%;
+        width: 90%;
+        text-align: center;
+        background-image: linear-gradient(0deg, #4d4646 , #4d4646);
+        color: azure;
     }
