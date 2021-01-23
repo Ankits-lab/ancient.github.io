@@ -44,10 +44,13 @@
         color:azure;
     }
 
+
 .card-about > p2{
         font-family: sans-serif;
         color:azure;
     }
+
+
 @media(max-width:720px){
     .card-about > p2{
         font-family: sans-serif;
@@ -79,17 +82,22 @@
     }
 
 .card-support > p1{
-        margin-top: 5%;
+        margin-top: 1%;
         font-family:sans-serif;
         font-weight: 10%;
         color:azure;
+       
     }
 
 .card-support > p2{
         font-family: sans-serif;
         color:azure;
+        margin-bottom: 1%;
     }
 
 .card-main:hover{
-    box-shadow: 0px 2px 4px 8px #ff0000;
+    box-shadow: 0px 2px 4px 8px #8dcce9;
+}
+.card-main1:hover{
+    box-shadow: 0px 2px 4px 8px #8da2e9;
 }
