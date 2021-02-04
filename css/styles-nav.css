@@ -1,5 +1,9 @@
 .nav-item{
-    font-size: 1.5rem;
+    font-size: 3vw;
+}
+.nav-item1{
+    font-size: 3vw;
+    color: #fff;
 }
 .nav-item:hover{
     color: #ffffff;
